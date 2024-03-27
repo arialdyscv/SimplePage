@@ -1,14 +1,3 @@
-body {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-
-  background-color: rgb(105, 179, 253);
-}
-
 .Navbar {
   border: solid;
   border-color: white;
@@ -40,4 +29,55 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.divisor {
+  height: 5px;
+  margin: 5px 0 5px 0;
+}
+
+.titulo {
+  color: black;
+}
+
+.card-container {
+  display: flex;
+  width: 100%;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 50px 10px 50px;
+}
+.card-img-top {
+  width: 500px;
+  height: 300px;
+}
+
+.card-text {
+  word-wrap: break-word;
+  height: 200px;
+  overflow: hidden;
+}
+
+.card-body {
+  height: 400px;
+  overflow: hidden;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 10px 50px 10px 50px;
+}
+
+.banner {
+  max-height: 800px;
+}
+
+.postres {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
